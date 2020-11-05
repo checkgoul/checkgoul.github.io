@@ -1,23 +1,21 @@
-
 #web_bg {
-    /* èƒŒæ™¯å›¾åƒçš„åœ°å€ï¼ˆurlæ‹¬å·é‡Œï¼‰  */
-    background: url(../img/background.jpg);
-    /* èƒŒæ™¯å›¾åƒä¸é‡å¤ */
-    background-repeat: no-repeat;
-    /* èƒŒæ™¯å›¾åƒå¤§å° */
-    background-size: cover;
-  }
-  /* æ–‡ç« é¡µèƒŒæ™¯ */
+  /* ±³¾°Í¼ÏñµÄµØÖ·£¨urlÀ¨ºÅÀï£©  */
+  background: url('/img/background.jpg');
+  /* ±³¾°Í¼Ïñ²»ÖØ¸´ */
+  background-repeat: no-repeat;
+  /* ±³¾°Í¼Ïñ´óĞ¡ */
+  background-size: cover;
+}
+/* ÎÄÕÂÒ³±³¾° */
 .layout_post>#post {
-    /* ä»¥ä¸‹ä»£è¡¨ç™½è‰²é€æ˜åº¦ä¸º0.3 */
-    background: rgba(255,255,255,.6);
+    /* ÒÔÏÂ´ú±í°×É«Í¸Ã÷¶ÈÎª0.3 */
+    background: rgba(255,255,255,.3);
 }
-/* æ‰€æœ‰èƒŒæ™¯ï¼ˆåŒ…æ‹¬é¦–é¡µå¡ç‰‡ã€æ–‡ç« é¡µã€é¡µé¢é¡µç­‰ï¼‰ */
+/* ËùÓĞ±³¾°£¨°üÀ¨Ê×Ò³¿¨Æ¬¡¢ÎÄÕÂÒ³¡¢Ò³ÃæÒ³µÈ£© */
 #aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
-    /* ä»¥ä¸‹ä»£è¡¨ç™½è‰²é€æ˜åº¦ä¸º0.3 */
-    background: rgba(255,255,255,1);
+    /* ÒÔÏÂ´ú±í°×É«Í¸Ã÷¶ÈÎª0.3 */
+    background: rgba(255,255,255,.3);
 }
-/* é¼ æ ‡æ ·å¼ */
 body {
     cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
         default;
